@@ -6,10 +6,8 @@ Need Gladys version >= 3.0.0.
 
 ## Documentation
 
-### search
+To install this module :
 
-Search functions search for Wemo Insight Switch in local network and create devices
-
-```javascript
-gladys.modules.wemo.search();
-```
+- Install the module in Gladys
+- Reboot Gladys
+- Go to "Module" view in dashboard, and click on the configuration button of the module.
