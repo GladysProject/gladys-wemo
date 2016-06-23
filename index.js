@@ -1,11 +1,11 @@
 
 module.exports = function(sails) {
     
-    var config = require('./lib/config.js');
+    var setup = require('./lib/setup.js');
     var exec = require('./lib/exec.js');
     
     return {
-        config: config,
+        setup: setup,
         exec: exec,
     };
 };
